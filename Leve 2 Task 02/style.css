@@ -1,0 +1,109 @@
+/* General Styling */
+* {
+    margin: 0;
+  }
+  body {
+    height: 100%;
+    font-size: 1.5em;
+    font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+  }
+  html {
+    font-size: 10px;
+  }
+
+  /* Styling first div */
+  
+  #first-div {
+    background-color: rgb(0, 0, 0);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border-bottom: 3px solid rgb(105 5 5);
+  }
+  
+  #first-div-text {
+    order: 1;
+    flex-grow: 1;
+    color: white;
+    min-width: 30%;
+    margin-top: 10vh;
+    font-size: 1.5em;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    text-align: center;
+      margin-bottom: 10vh;
+      align-self: center;
+  }
+  
+
+  
+  #first-div-image {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: center;
+    max-width: 400px;
+    margin-right: 6%;
+  }
+  
+  /* for the image to be displayed efficiently */
+  #Albert_Einstein {
+    height: 400px;
+    width: 400px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    float: center;
+    
+  }
+  
+  #Text {
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 400px;
+   
+    box-sizing: border-box; 
+  }
+
+  #p1{
+    font-size: 35px;
+  }
+
+  #p2{
+    font-size: 35px;
+    color: aqua;
+  }
+
+  #p3{
+    font-size: 25px;
+  }
+
+  /* Styling second div */
+  
+  #second-div {
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    font-family: 'Tiro Devanagari Hindi', serif;
+  }
+  
+  .container {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6% 1%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.8rem;
+  }
+  
+  /* Author Text */
+  
+  #author-text {
+    color: rgb(228, 32, 211);
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0.6vh;
+  }
